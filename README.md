@@ -8,6 +8,11 @@
 
 A template for building OpenWrt with GitHub Actions
 
+
+
+# Openwrt releases 
+[ x86 / generic / ](https://downloads.openwrt.org/releases/21.02.1/targets/x86/generic/)
+
 ## Usage
 
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
