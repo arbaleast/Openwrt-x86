@@ -1,25 +1,31 @@
+# Feature:
+- **Resize rootfs partion**：104MB -> 1024MB
+- **Support USB3.0 and USB2.0**
 
+- **Applications**
+    - luci-app-AdGuardHome
+    - luci-app-aria2
+    - luci-app-mwan3
+    - luci-app-nlbwmon
+    - luci-app-Openclash
+    - luci-app-oaf
+    - luci-app-samba4
+    - luci-app-SmartDNS
+    - luci-app-wifschedule
+    - luci-app-wol
+    - luci-app-zerotier
 
+- **Themes**
+    - luci-theme-argon
+    - luci-theme-bootstrap
+    - luci-theme-material
+
+- **Network**
+    - tcpdump
+    - ariaNg
+---
 # Openwrt releases 
 [ x86 / generic / ](https://downloads.openwrt.org/releases/21.02.1/targets/x86/generic/)
 
-
-# Feature:
-- [x] 调整rootfs分区：104MB -> 1024MB
-- [x] 支持USB3.0和USB2.0存储
-- [x] Applications:
-      - luci-app-aria2
-      - luci-app-mwan3
-      - luci-app-nlbwmon
-      - luci-app-oaf
-      - luci-app-samba4
-      - luci-app-wifischedule
-      - luci-app-wol
-- [x] Themes:
-      - luci-theme-argon
-      - luci-theme-bootstrap
-      - luci-theme-material
-- [x] Network
-      - tcpdump
-      - ariaNg
+[For openwrt official 21.02 Snapshots LuCI master](https://github.com/jerrykuku/luci-theme-argon/releases/tag/v2.2.9)
 
