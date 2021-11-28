@@ -5,4 +5,21 @@
 
 
 # Feature:
-- something
+- [x] 调整rootfs分区：104MB -> 1024MB
+- [x] 支持USB3.0和USB2.0存储
+- [x] Applications:
+      - luci-app-aria2
+      - luci-app-mwan3
+      - luci-app-nlbwmon
+      - luci-app-oaf
+      - luci-app-samba4
+      - luci-app-wifischedule
+      - luci-app-wol
+- [x] Themes:
+      - luci-theme-argon
+      - luci-theme-bootstrap
+      - luci-theme-material
+- [x] Network
+      - tcpdump
+      - ariaNg
+
