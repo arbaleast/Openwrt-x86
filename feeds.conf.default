@@ -5,7 +5,7 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git OpenClash https://github.com/vernesong/OpenClash
 
 src-git kenzo https://github.com/kenzok8/openwrt-packages
-#src-git small https://github.com/kenzok8/small
+src-git small https://github.com/kenzok8/small
 
 
 #src-git video https://github.com/openwrt/video.git
