@@ -2,12 +2,12 @@ name: Build-op-K2P-A1
 
 on:
   repository_dispatch:
-    workflow_dispatch:
-      inputs:
-        ssh:
-          description: 'SSH connection to Actions'
-          required: false
-          default: 'false'
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
@@ -140,7 +140,7 @@ jobs:
       run: |
         echo "::set-output name=realese_tag::$(date +"%Y.%M.%D-%H:%M")"
         touch release.txt
-        [ $UPLOAD_COWTRANSFER = true ] && echo "í´— [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
+        [ $UPLOAD_COWTRANSFER = true ] && echo "ï¿½ï¿½ï¿½ [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "<dd17> [WeTransfer](${{ steps.wetransfer.outputs.url}})" >> release.txt
         echo "::set-output name=status::success"
 
