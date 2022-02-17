@@ -13,5 +13,5 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.98.1/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/jerrykuku/luci-theme-argon.git   package/luci-theme-argon
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-git clone https://github.com/kongfl888/luci-app-adguardhome.git package/Luci-app-adguardhome
+#git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+#git clone https://github.com/kongfl888/luci-app-adguardhome.git package/Luci-app-adguardhome
