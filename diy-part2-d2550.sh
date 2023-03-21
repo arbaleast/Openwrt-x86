@@ -16,4 +16,4 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git   package/luci-theme
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome 
 git clone https://github.com/rufengsuixing/luci-app-zerotier.git package/luci-app-zerotier
-git clone https://github.com/flytosky-f/luci-app-vlmcsd.git package/luci-app-vlmcsd
+#git clone https://github.com/flytosky-f/luci-app-vlmcsd.git package/luci-app-vlmcsd
